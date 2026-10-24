@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rutledge Family Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d256e364537f25bbe63a1851f5404972@local-events-rutledge
+DTSTAMP:20261024T134800Z
+DTSTART;TZID=America/New_York:20261107T110000
+DTEND;TZID=America/New_York:20261107T142000
+SUMMARY:Carson-Newman Homecoming on Henderson Lawn
+LOCATION:Henderson Lawn\, Russell Ave\, Jefferson City
+DESCRIPTION:Sat Nov 7\, 11am-2:20pm. Food trucks\, coffee and snow cones\, free kids' inflatables and crafts\, homecoming parade. Details: https://www.cn.edu/event/homecoming-activities-on-henderson-lawn-2/
+URL:https://www.cn.edu/event/homecoming-activities-on-henderson-lawn-2/
+END:VEVENT
+END:VCALENDAR

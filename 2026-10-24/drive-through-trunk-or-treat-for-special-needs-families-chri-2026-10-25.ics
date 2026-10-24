@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rutledge Family Events//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e416e010a49478e5d9e4c19b106b7cc6@local-events-rutledge
+DTSTAMP:20261024T134800Z
+DTSTART;TZID=America/New_York:20261025T170000
+DTEND;TZID=America/New_York:20261025T190000
+SUMMARY:Drive-Through Trunk or Treat for Special Needs Families (Christ Covenant)
+LOCATION:Christ Covenant Church\, Knoxville
+DESCRIPTION:Sun Oct 25\, 3-5pm. Drive-through trunk-or-treat with pre-packaged treats\; held rain or shine. Details: https://www.christcov.org/events/event/2526/drive-through-trunk-or-treat-for-special-needs-families/2026-10-25
+URL:https://www.christcov.org/events/event/2526/drive-through-trunk-or-treat-for-special-needs-families/2026-10-25
+END:VEVENT
+END:VCALENDAR
